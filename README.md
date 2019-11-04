@@ -1,7 +1,9 @@
 # jobs_ac_uk
 Custom search and url getter for jobs.ac.uk (python)
 
-Useful if (like me) you find the default search on jobs.ac.uk total trash. 
+Useful if (like me) you find the default search on jobs.ac.uk total trash.
+
+First useful things I've written.
 
 On top of default search this adds:
   1) ability to filter out low grade jobs with a high upper salary that make up the majority of results for me.
@@ -15,7 +17,15 @@ Instructions:
 
 
 Future versions might be able to:
+  - efficiency improvement (avoid re-searching links between terms, download all jobs and save to csv for lookup)
+  - email daily summary
+but don't hold your breath because current version works for me.
+
+
+Fixed/added in V0.2:
+  - multiple search terms at once
+  - saves output as csv
+
+Fixed/added in V0.3:
   - edit params without opening up the .py
   - fix issues reporting min salary for jobs with no max salary
-  - efficiency improvement (avoid re-searching links between terms, download all jobs and save to csv for lookup)
-but don't hold your breath because current version works for me.
